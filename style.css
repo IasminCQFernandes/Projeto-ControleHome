@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Italiana', serif;
+}
+body{
+    background-color: #F7C4A3;
+}
+
+header{
+    height: 30vh;
+    
+    
+}
+header h1{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.welcome{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.welcome img{
+    width: 30%;
+}
+.saudacao{
+    background-color: #C27645;
+    font-size: 2em;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    color: #fff;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.saudacao p{
+    padding-left: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+.saudacao span{
+    font-family: 'Roboto', sans-serif;
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.5em;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+.date img{
+    width: 13%;
+    margin-right: 2%;
+}
+
+main{
+    display: grid;
+    height: 45vh;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    overflow-y: scroll;
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+  
+}
+.cabecalho{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 3%;
+    font-size: 0.8em;
+}
+.cabecalho h3{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+.controle{
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: #F59758;
+    border-radius: 10px;
+    padding: 4%;
+    overflow-y: scroll;
+}
+.controle p{
+    margin-bottom: 10%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.refrigeracao{
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: #C27645;
+    border-radius: 10px;
+    padding: 4%;
+    font-size: .9em;
+}
+.refrigeracao p{
+    margin-bottom: 10%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.temperatura{
+    font-size: 2em;
+}
+
+.controleTemp{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: #75482A;
+}
+.iluminacao{
+    grid-area: 2 / 2 / 3 / 3;
+    background-color:#75482A ;
+    border-radius: 10px;
+    padding: 4%;
+    font-size: .9em;
+}
+.iluminacao p{
+    margin-bottom: 10%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intensidade{
+    font-size: 2em;
+}
+
+.controleIntensidade{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: #C27645;
+}
